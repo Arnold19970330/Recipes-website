@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receptek</title>
+    <meta
+      name="description"
+      content="Find the best recipes and upload your own."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- BEM:
+      block: site-header
+      element: side-header__container
+      modifier: --green
+    -->
+    <header class="site-header">
+      <div class="site-header__container">
+        <h1 class="site-logo">Receptek</h1>
+        <nav class="site-nav">
+          <ul class="site-nav__list">
+            <li><a href="/">Kezdőoldal</a></li>
+            <li><a href="/receptek.html">Receptek</a></li>
+            <li><a href="#" id="login-button">Bejelentkezés</a></li>
+            <li><a href="/szerkesztes.html">Új recept</a></li>
+          </ul>
+          <form class="signin" id="login-form">
+            <label for="log-username"
+              >Felhasználónév <br />
+              <input type="text" name="username" id="login-username" />
+            </label>
+            <label for="login-password"
+              >Jelszó<br />
+              <input type="password" name="password" id="login-password" />
+            </label>
+            <button>Belépés</button>
+            <a href="/regisztracio.html">Regisztráció</a>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <div class="site-container">
+      <main class="main main--recipe">
+        <article class="recipe__article">
+          <h1 class="section-title">Nagyi süti receptje</h1>
+          <img
+            src="/img/eclair-g8a04536fd_1280.jpg"
+            alt=""
+            srcset=""
+            class="recipe__image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit fugit nesciunt voluptatibus quis, cum tempore
+            accusamus, dolore excepturi neque blanditiis modi ducimus beatae
+            dolores obcaecati aperiam harum vel? Reprehenderit, quidem!
+          </p>
+          <p>
+            Recusandae, voluptatibus. Dignissimos aut amet dolorem veniam hic
+            quidem, perspiciatis nostrum eos neque vitae qui quasi eveniet
+            quaerat expedita totam nisi quibusdam eaque? Inventore saepe
+            dignissimos quidem asperiores voluptate sint.
+          </p>
+          <p>
+            Ullam sequi eum quo nisi sed ex totam unde sapiente, reiciendis
+            fugit laborum eius provident ad quasi deleniti numquam, tempora,
+            sunt a necessitatibus dolorem corporis. Voluptatibus soluta debitis
+            non fugiat.
+          </p>
+          <p>
+            Vel quas corrupti inventore corporis architecto sapiente blanditiis
+            provident quisquam commodi tempore nisi nulla assumenda ab
+            consequuntur sint, quae natus voluptas alias suscipit ut maiores?
+            Laudantium, eos? Quibusdam, veniam ut?
+          </p>
+          <p>
+            Beatae, soluta aspernatur. Laborum reiciendis quidem a. Atque quia
+            recusandae eius nulla officia animi ut, ex nihil cum aliquam
+            explicabo inventore rem commodi consequatur ad vero. A aspernatur
+            non ullam.
+          </p>
+          <p>
+            Rerum, mollitia architecto voluptatum obcaecati cum alias iusto!
+            Distinctio necessitatibus sit quam aliquid ducimus fugit repellendus
+            doloribus. Aperiam praesentium, omnis molestias voluptatem quas
+            provident hic maxime rem laborum earum! Culpa!
+          </p>
+          <p>
+            Error odit illum, magni ullam quam alias quasi modi rem? Quos
+            deserunt velit amet, enim excepturi tempore consequatur voluptates
+            hic nam dolorem odit vitae et eius ea expedita laudantium! Ab!
+          </p>
+          <p>
+            Illo fugit beatae alias molestias quis dolorem at earum assumenda,
+            cumque officiis quos eaque esse numquam excepturi dicta molestiae,
+            minus provident saepe ratione? Dolor iusto blanditiis corrupti, non
+            ipsam quia?
+          </p>
+        </article>
+        <aside class="recipe__sidebar">
+          <section class="recipe__sidebar-section">
+            <h3>Legutóbbi receptek</h3>
+            <ul>
+              <li><a href="#">Süti recept</a></li>
+              <li><a href="#">Pizza recept</a></li>
+              <li><a href="#">Hamburger recept</a></li>
+              <li><a href="#">Leves recept</a></li>
+              <li><a href="#">Lazac recept</a></li>
+            </ul>
+          </section>
+          <section class="recipe__sidebar-section">
+            <h3>Legjobb receptek</h3>
+            <ul>
+              <li><a href="#">Süti recept</a></li>
+              <li><a href="#">Pizza recept</a></li>
+              <li><a href="#">Hamburger recept</a></li>
+              <li><a href="#">Leves recept</a></li>
+              <li><a href="#">Lazac recept</a></li>
+            </ul>
+          </section>
+        </aside>
+      </main>
+      <footer class="site-footer">
+        <div class="site-footer__container">
+          <nav class="site-footer__nav">
+            <ul>
+              <li><a href="/">Kezdőoldal</a></li>
+              <li><a href="/receptek.html">Receptek</a></li>
+              <li><a href="#">Rólunk</a></li>
+              <li><a href="/kontaktok.html">Kapcsolat</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__message">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
+              aliquid dolorem, quae accusamus corporis incidunt quas laudantium
+              fugit suscipit qui sunt officiis nisi ab molestiae repudiandae
+              laboriosam, excepturi autem velit.
+            </p>
+            <span>&copy 2022</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>

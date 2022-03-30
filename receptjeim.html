@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receptek</title>
+    <meta
+      name="description"
+      content="Find the best recipes and upload your own."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__container">
+        <h1 class="site-logo">Receptek</h1>
+        <nav class="site-nav">
+          <ul class="site-nav__list">
+            <li><a href="/">Kezdőoldal</a></li>
+            <li><a href="/receptek.html">Receptek</a></li>
+            <li><a href="#" id="login-button">Bejelentkezés</a></li>
+            <li><a href="/szerkesztes.html">Új recept</a></li>
+            <li><a href="receptjeim.html">Receptjeim</a></li>
+          </ul>
+          <form class="signin" id="login-form">
+            <label for="log-username"
+              >Felhasználónév <br />
+              <input type="text" name="username" id="login-username" />
+            </label>
+            <label for="login-password"
+              >Jelszó<br />
+              <input type="password" name="password" id="login-password" />
+            </label>
+            <button>Belépés</button>
+            <a href="/regisztracio.html">Regisztráció</a>
+          </form>
+        </nav>
+      </div>
+    </header>
+      <main>
+        <section class="section recent-recipes">
+          <h2 class="section-title">Legutóbb hozzáadott receptjeim</h2>
+          <div class="recent-recipes__container">
+            <div class="recent-recipes__img">
+              <img src="/img/pizza-g640d2fcac_1280.jpg" alt="Pizza" />
+              <p>Elkészítési idő  <i class="fa fa-clock-o"> </i> 15 perc</i></p>
+            </div>
+            <div class="recent-recipes__description">
+              <h3>Pizza recept</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis quibusdam, similique aspernatur iste in dignissimos eos
+                quam aliquam possimus, omnis fuga, ratione blanditiis
+                consequuntur dolorem quo illum dolore necessitatibus vero.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates voluptatibus distinctio aliquid debitis dicta alias
+                cupiditate odit exercitationem rerum similique? Alias, delectus
+                nesciunt laborum fugiat explicabo quo quod earum reiciendis!
+              </p>                 
+            </div>
+            <div class="recent-recipes__edit">
+              <button  class="recent-recipes__modosit">Recept modosítása</button>
+              <button  class="recent-recipes__torol">Recept törlése</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="site-footer__container">
+          <nav class="site-footer__nav">
+            <ul>
+              <li><a href="/">Kezdőoldal</a></li>
+              <li><a href="/receptek.html">Receptek</a></li>
+              <li><a href="#">Rólunk</a></li>
+              <li><a href="/kontaktok.html">Kapcsolat</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__message">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
+              aliquid dolorem, quae accusamus corporis incidunt quas laudantium
+              fugit suscipit qui sunt officiis nisi ab molestiae repudiandae
+              laboriosam, excepturi autem velit.
+            </p>
+            <span>&copy 2022</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
