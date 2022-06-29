@@ -1,0 +1,38 @@
+{
+    "recipes": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "type": "Pizza",
+          "kalóriák": 1286,
+          "hozzávalók": [
+              {
+                "Név": "tészta",
+                "finomliszt": "300 g",
+                "barna-cukor": "1 csipet",
+                "só": "1 ek",
+                "víz": "4 dl",
+                "élesztő": "11 gr"
+              },
+              {
+                  "név": "Paradicsomszósz",
+                  "paszírozott paradicsom":"3 dl",
+                  "fokhagyma": "3 gerezd",
+                  "oregánó": "1 tk",
+                  "chilipehely": "1 tk",
+                  "só": "1 tk",
+                  "barna-cukor": "1 csipet",
+                  "bazsalikom": "1 marék",
+                  "olivaólaj": "3 ek"
+              },
+              {
+                "név": "Feltét",
+                "mozarella": "375 g",
+                "bazsalikom":" 1 marék"
+              }
+              
+          ]
+         
+        }
+    ]
+}

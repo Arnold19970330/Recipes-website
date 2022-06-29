@@ -152,7 +152,8 @@ a:active {
 }
 
 .hero__search-input,
-.hero__search-button {
+.hero__search-button,
+.addnewitem {
   font-size: 1.5rem;
   flex-grow: 1;
   flex-shrink: 1;
@@ -163,7 +164,8 @@ a:active {
   min-width: 0;
 }
 
-.hero__search-button {
+.hero__search-button,
+.addnewitem {
   background-color: #278090;
   color: #fff;
   cursor: pointer;
@@ -178,6 +180,8 @@ a:active {
 
 .section {
   border-bottom: 1px solid #ccc;
+  height: 100vh;
+  overflow-y:auto
 }
 
 .section-title {

@@ -54,10 +54,12 @@
         <form action="#" class="registration">
           <label for="username">
             Cím <br />
-            <input type="text" name="userName" id="userName" />
+            <input type="text" name="userName" class="new-recipe-title" />
           </label>
+          <label>Fotó <br />
+          <input type="file" class="new-recipe-img"></label>
           <label for="category"
-            >Kategória <br />
+            >Kategória <br/>
             <select name="category" id="category">
               <option value="levesek">Levesek</option>
               <option value="grill">Grill ételek</option>
@@ -68,36 +70,15 @@
           </label>
           <label for="description"
             >Leírás <br />
-            <textarea name="description" id="" rows="10"></textarea>
+            <textarea name="description" rows="10" class="new-recipe-description"></textarea>
           </label>
           <label for="ingredients"
             >Összetevők <br />
-            <textarea name="ingredients" id="" rows="10"></textarea>
+            <textarea name="ingredients" rows="10" class="new-recipe-ingredients"></textarea>
           </label>
-          <input type="submit" value="Hozzáadás" />
+          <button type="submit" id="add-new-item" onclick=generateHTML()>Hozzáadás</button>
         </form>
       </main>
-      <footer class="site-footer">
-        <div class="site-footer__container">
-          <nav class="site-footer__nav">
-            <ul>
-              <li><a href="/">Kezdőoldal</a></li>
-              <li><a href="/receptek.html">Receptek</a></li>
-              <li><a href="#">Rólunk</a></li>
-              <li><a href="/kontaktok.html">Kapcsolat</a></li>
-            </ul>
-          </nav>
-          <div class="site-footer__message">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
-              aliquid dolorem, quae accusamus corporis incidunt quas laudantium
-              fugit suscipit qui sunt officiis nisi ab molestiae repudiandae
-              laboriosam, excepturi autem velit.
-            </p>
-            <span>&copy 2022</span>
-          </div>
-        </div>
-      </footer>
     </div>
     <script src="/main.js"></script>
   </body>
