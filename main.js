@@ -12,32 +12,6 @@ document.addEventListener('click', e => {
   }
 })
 
-const template = document.createElement('template');
-
-template.innerHTML = `
-<footer class="site-footer">
-<div class="site-footer__container">
-  <nav class="site-footer__nav">
-    <ul>
-      <li><a href="/">Kezdőoldal</a></li>
-      <li><a href="/receptek.html">Receptek</a></li>
-      <li><a href="#">Rólunk</a></li>
-      <li><a href="/kontaktok.html">Kapcsolat</a></li>
-    </ul>
-  </nav>
-  <div class="site-footer__message">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
-      aliquid dolorem, quae accusamus corporis incidunt quas laudantium
-      fugit suscipit qui sunt officiis nisi ab molestiae repudiandae
-      laboriosam, excepturi autem velit.
-    </p>
-    <span>&copy 2022</span>
-  </div>
-</div>
-</footer>`;
-
-document.body.appendChild(template.content);
 
     //Firebase import auth    
 
